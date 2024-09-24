@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.post-container {
+    width: 500px;
+    border: 1px solid #ccc;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.post-interactions span {
+    display: block;
+    padding-top: 10px;
+    color: #555;
+}
