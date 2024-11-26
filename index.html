@@ -1,68 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram Post</title>
+    <title>Publicación de Instagram</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <style>
-        body {
-    font-family: Arial, sans-serif;
-}
-
-h2{
-    color: black;
-}
-
-.post-container {
-    background-color: white;
-    width: 500px;
-    border: 1px solid #ccc;
-    margin: auto;
-    padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.post-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.logo {
-    width: 50px;
-    height: auto;
-    margin-right: 10px;
-}
-
-.post-image {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.post-interactions span {
-    display: block;
-    padding-top: 10px;
-    color: #555;
-}
-    </style>
-    <div class="post-container">
-        <header class="post-header">
-            <img src="https://seeklogo.com/images/H/html5-logo-EF92D240D7-seeklogo.com.png" alt="HTML5 Logo" class="logo">
-            <h2>Rigoberto ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎<i class="fa-solid fa-ellipsis-vertical"></i> </h2>
-        </header>
-        <img src="https://seeklogo.com/images/B/billabong-hawai-beach-sunset-logo-BCB4D4DDF9-seeklogo.com.png" alt="Beach Day" class="post-image">
-        <div class="post-interactions">
-            <h1><i class="fa-regular fa-heart"></i>
-                <i class="fa-regular fa-comment"></i>
-                <i class="fa-solid fa-share" name="spacing"></i>
-                ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎   <i class="fa-regular fa-bookmark"></i></h1>
-            <span>Liked by 4GeeksAcademy, html5, Web and 100,000 others</span>
+    <div class="instagram-post">
+        <div class="header">
+            <img src="profile.png" alt="Foto de perfil" class="profile-pic">
+            <div class="user-info">
+                <span class="username">HTML5</span>
+                <span class="name">Rigoberto</span>
+            </div>
+            <i class="fas fa-ellipsis-h"></i>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur gravida fermentum nisi a finibus.</p>
+        <img src="post-image.jpg" alt="Publicación" class="post-image">
+        <div class="post-interactions">
+            <div class="icons-left">
+                <i class="far fa-heart"></i>
+                <i class="far fa-comment"></i>
+                <i class="far fa-paper-plane"></i>
+            </div>
+            <i class="far fa-bookmark"></i>
+        </div>
+        <div class="likes">1,234 Me gusta</div>
+        <div class="caption">
+            <span class="username">usuario123</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta metus et ipsum convallis, et tempor erat gravida. Praesent consectetur nisi nec magna feugiat, eget mattis ex dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean diam lorem, congue in mauris sit amet, feugiat suscipit neque. Fusce lobortis justo nec semper semper. Sed posuere massa a lectus auctor elementum. Mauris porttitor, magna at porta pharetra, quam nisl sollicitudin arcu, eget suscipit elit ante ac turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque sit amet sapien nec dolor sodales blandit ac vitae felis.
+        </div>
+        <div class="comments">
+            <span class="view-comments">Ver todos los comentarios</span>
+        </div>
     </div>
 </body>
 </html>
